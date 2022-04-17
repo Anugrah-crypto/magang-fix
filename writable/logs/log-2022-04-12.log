@@ -1,0 +1,10 @@
+CRITICAL - 2022-04-12 01:42:36 --> Invalid file: barang/progress.php
+#0 C:\xampp\htdocs\tripilar\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/progress...')
+#1 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/progress', Array, true)
+#2 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(87): view('barang/progress', Array)
+#3 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->status()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

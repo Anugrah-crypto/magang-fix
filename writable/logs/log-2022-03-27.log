@@ -1,0 +1,51 @@
+CRITICAL - 2022-03-27 09:09:09 --> Value of type bool is not callable
+#0 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\xampp\htdocs\tripilar\app\ThirdParty\myth-auth\src\Config\Services.php(84): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\xampp\htdocs\tripilar\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\xampp\htdocs\tripilar\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(401): service('activator')
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-27 09:09:51 --> Value of type bool is not callable
+#0 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\xampp\htdocs\tripilar\app\ThirdParty\myth-auth\src\Config\Services.php(84): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\xampp\htdocs\tripilar\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\xampp\htdocs\tripilar\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\xampp\htdocs\tripilar\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(401): service('activator')
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-27 09:10:49 --> Column 'BKT' cannot be null
+CRITICAL - 2022-03-27 09:10:49 --> Column 'BKT' cannot be null
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(46): App\Models\M_Barang->tambah(Array)
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->tambah()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-27 10:32:00 --> Undefined variable $value
+#0 C:\xampp\htdocs\tripilar\app\Views\barang\teknisi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/teknisi', Array, true)
+#4 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(72): view('barang/teknisi', Array)
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->teknisi()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

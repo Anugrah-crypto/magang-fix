@@ -1,0 +1,12 @@
+ERROR - 2022-03-07 02:48:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-03-07 02:48:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(23): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

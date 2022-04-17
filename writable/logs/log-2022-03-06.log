@@ -1,0 +1,45 @@
+CRITICAL - 2022-03-06 03:17:33 --> Undefined variable $judul
+#0 C:\xampp\htdocs\tripilar\app\Views\templates\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('templates/v_hea...', Array, true)
+#4 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(56): view('templates/v_hea...', Array)
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->create()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-06 03:31:40 --> Column 'Usr_Teknisi' cannot be null
+CRITICAL - 2022-03-06 03:31:40 --> Column 'Usr_Teknisi' cannot be null
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(46): App\Models\M_Barang->tambah(Array)
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->tambah()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-06 07:09:56 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\tripilar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tripilar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#3 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(797): class_exists('\\Myth\\Auth\\Cont...', true)
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-06 09:01:44 --> Class "CodeIgniter\Controllers" not found
+#0 C:\xampp\htdocs\tripilar\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\tripilar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tripilar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(797): class_exists('\\Myth\\Auth\\Cont...', true)
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tripilar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

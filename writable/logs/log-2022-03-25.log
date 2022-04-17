@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-25 07:25:19 --> Undefined variable $barang
+#0 C:\xampp\htdocs\tripilar\app\Views\barang\teknisi.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/teknisi', Array, true)
+#4 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(70): view('barang/teknisi', Array)
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->teknisi()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

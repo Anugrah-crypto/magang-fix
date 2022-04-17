@@ -1,0 +1,248 @@
+CRITICAL - 2022-02-28 01:52:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 01:52:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 01:52:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 01:53:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:02:39 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\tripilar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('barang')
+#1 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('barang')
+#2 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 02:02:40 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\tripilar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('barang')
+#1 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('barang')
+#2 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 02:02:47 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\tripilar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('barang')
+#1 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('barang')
+#2 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 02:16:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:25:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:25:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:25:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tripilar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tripilar\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-28 02:29:57 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:29:57 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 02:29:58 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:29:58 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 02:30:19 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:30:19 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 02:30:25 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:30:25 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 02:30:26 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:30:26 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 02:32:39 --> Table 'lk_ci4.lk_ci4' doesn't exist
+CRITICAL - 2022-02-28 02:32:39 --> Table 'lk_ci4.lk_ci4' doesn't exist
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(21): App\Models\M_Barang->getAllData()
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-28 02:33:32 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\tripilar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(27): view('barang/index', Array)
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:33:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\tripilar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(27): view('barang/index', Array)
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-28 02:33:42 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\tripilar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tripilar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tripilar\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#3 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(27): view('barang/index', Array)
+#4 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->index()
+#5 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-28 03:08:07 --> Unknown column 'IsFinish' in 'field list'
+CRITICAL - 2022-02-28 03:08:07 --> Unknown column 'IsFinish' in 'field list'
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(43): App\Models\M_Barang->tambah(Array)
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->tambah()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 03:09:10 --> Unknown column 'IsFinish' in 'field list'
+CRITICAL - 2022-02-28 03:09:10 --> Unknown column 'IsFinish' in 'field list'
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(43): App\Models\M_Barang->tambah(Array)
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->tambah()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-28 03:09:51 --> Column 'IsFinisih' cannot be null
+CRITICAL - 2022-02-28 03:09:51 --> Column 'IsFinisih' cannot be null
+#0 C:\xampp\htdocs\tripilar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tripilar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tripilar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tripilar\app\Models\M_Barang.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tripilar\app\Controllers\barang.php(43): App\Models\M_Barang->tambah(Array)
+#6 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(832): App\Controllers\barang->tambah()
+#7 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#8 C:\xampp\htdocs\tripilar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tripilar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
