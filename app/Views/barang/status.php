@@ -54,7 +54,7 @@
                     <td><1?php echo $b['Keterangan_Pelapor']; ?></td> -->
                             <td><?php echo $b['Usr_Teknisi']; ?></td>
                             <td><?php echo $b['Tgl_Penanganan']; ?></td>
-                            <td> <a href="<?= base_url(); ?>/barang/detail/<?= $b['ID']; ?>" class="btn btn-success">Detail</a>
+                            <td> <a href="<?= base_url(); ?>/barang/detail_status/<?= $b['ID']; ?>" class="btn btn-success">Detail</a>
                                 <!-- <td><1?php echo $b['Keterangan_Teknisi']; ?></td>
                             <td><1?php echo $b['IsFinisih']; ?></td> -->
 

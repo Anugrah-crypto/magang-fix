@@ -14,20 +14,6 @@
         <label for="IsSoftware"> Software </label><br>
         <input type="checkbox" id="IsHardware" name="IsHardware" value=1>
         <label for="IsJaringan"> Hardware </label><br><br>
-        <!-- <div class="form-group mb-0">
-            <label for="IsJaringan"></label>
-            <input type="text" name="IsJaringan" id="IsJaringan" class="form-control" placeholder="IsJaringan">
-
-        </div>
-        <div class="form-group mb-0">
-            <label for="IsSoftware"></label>
-            <input type="text" name="IsSoftware" id="IsSoftware" class="form-control" placeholder="Masukkan IsSoftware">
-        </div>
-        <div class="form-group mb-0">
-            <label for="IsHardware"></label>
-            <input type="text" name="IsHardware" id="IsHardware" class="form-control" placeholder="Masukkan IsSoftware">
-        </div> -->
-
         <div class="form-group mb-0">
             <label for="Usr_Pelapor"></label>
             <input type="text" name="Usr_Pelapor" id="Usr_Pelapor" class="form-control" placeholder="Masukkan No. User">
@@ -37,7 +23,6 @@
             <input type="text" name="Keterangan_Pelapor" id="Keterangan_Pelapor" class="form-control" placeholder="Masukkan Keterangan">
 
         </div>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary" value="Submit">Tambah Data</button>
     </form>
 

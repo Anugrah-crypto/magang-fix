@@ -15,8 +15,6 @@ class barang extends BaseController
     }
     public function index()
     {
-        //$barang = $this->model->findAll();
-        //return view('barang/index', $data);
         $data =
             [
                 'judul' => 'Data Kerusakan',
@@ -49,35 +47,65 @@ class barang extends BaseController
         $data = [
             'judul' => 'Form Tambah Data'
         ];
-        //echo view('templates/v_header', $data);
-        //echo view('templates/v_sidebar');
-        //echo view('templates/v_topbar');
-        return view('barang/create', $data);
-        //echo view('templates/v_footer');
-    }
-    public function tambah2()
-    {
-        $data = [
-            'Tgl_Penanganan' => $this->request->getPost('Tgl_Penanganan'),
-            'Usr_Teknisi' => $this->request->getPost('Usr_Teknisi'),
-            'Keterangan_Teknisi' => $this->request->getPost('Keterangan_Teknisi'),
-            'IsFinisih' => $this->request->getPost('IsFinisih')
 
-        ];
-        $success = $this->model->tambah($data);
-        if ($success) {
-            return redirect()->to('barang/index');
-        }
+        return view('barang/create', $data);
     }
-    public function create2()
+    public function tambah2($ID)
+    {
+        $this->model->update($ID, [
+            'BKT' => $this->request->getPost('BKT'),
+            'IsJaringan' => $this->request->getPost('IsJaringan'),
+            'IsSoftware' => $this->request->getPost('IsSoftware'),
+            'IsHardware' => $this->request->getPost('IsHardware'),
+            'Usr_Pelapor' => $this->request->getPost('Usr_Pelapor'),
+            'Keterangan_Pelapor' => $this->request->getPost('Keterangan_Pelapor'),
+            'Usr_Teknisi' => $this->request->getPost('Usr_Teknisi'),
+            'Tgl_Penanganan' => $this->request->getPost('Tgl_Penanganan'),
+            'Keterangan_Teknisi' => $this->request->getPost('Keterangan_Teknisi'),
+            'IsFinish' => $this->request->getPost('IsFinish'),
+        ]);
+        session()->setFlashdata('pesan', 'Data berhasil diubah');
+        return redirect()->to('barang/index');
+    }
+    public function create2($ID)
     {
         $data = [
-            'judul' => 'Form Simpan Data'
+            'judul' => 'Form Penanganan Data',
+            'barang' => $this->model->getBarang($ID)
         ];
         //echo view('templates/v_header', $data);
         //echo view('templates/v_sidebar');
         //echo view('templates/v_topbar');
         return view('barang/create2', $data);
+        //echo view('templates/v_footer');
+    }
+    public function tambahedit($ID)
+    {
+        $this->model->update($ID, [
+            'BKT' => $this->request->getPost('BKT'),
+            'IsJaringan' => $this->request->getPost('IsJaringan'),
+            'IsSoftware' => $this->request->getPost('IsSoftware'),
+            'IsHardware' => $this->request->getPost('IsHardware'),
+            'Usr_Pelapor' => $this->request->getPost('Usr_Pelapor'),
+            'Keterangan_Pelapor' => $this->request->getPost('Keterangan_Pelapor'),
+            'Usr_Teknisi' => $this->request->getPost('Usr_Teknisi'),
+            'Tgl_Penanganan' => $this->request->getPost('Tgl_Penanganan'),
+            'Keterangan_Teknisi' => $this->request->getPost('Keterangan_Teknisi'),
+            'IsFinish' => $this->request->getPost('IsFinish'),
+        ]);
+        session()->setFlashdata('pesan', 'Data berhasil diubah');
+        return redirect()->to('barang/index');
+    }
+    public function edit($ID)
+    {
+        $data = [
+            'judul' => 'Form Ubah Data',
+            'barang' => $this->model->getBarang($ID)
+        ];
+        //echo view('templates/v_header', $data);
+        //echo view('templates/v_sidebar');
+        //echo view('templates/v_topbar');
+        return view('barang/edit', $data);
         //echo view('templates/v_footer');
     }
     public function teknisi()
@@ -117,6 +145,18 @@ class barang extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException('Laporan Tidak ditemukan');
         }
         return view('barang/detail', $data);
+    }
+    public function detail_status($ID)
+    {
+
+        $data = [
+            'title' => 'Detail Laporan',
+            'barang' => $this->model->getBarang($ID)
+        ];
+        if (empty($data['barang'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Laporan Tidak ditemukan');
+        }
+        return view('barang/detail_status', $data);
     }
     public function delete($ID)
     {

@@ -33,7 +33,7 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <button type="submit" class="btn btn-primary btn-block"><?= lang('Auth.loginAction') ?></button>
+                                    <button type="submit" class="btn btn-primary btn-block" href="<?= route_to('barang/index') ?>"><?= lang('Auth.loginAction') ?></button>
                                 </form>
 
                                 <div class="text-center">

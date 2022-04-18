@@ -44,7 +44,7 @@
 
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
-                <a class="nav-link collapsed" href="<?= base_url('logout'); ?>">
+                <a class="nav-link collapsed" href="<?= base_url("login"); ?>">
                     <i class="fa-solid fa-arrow-right-from-bracket"></i>
                     <span>Logout</span>
                 </a>

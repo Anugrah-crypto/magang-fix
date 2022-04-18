@@ -23,7 +23,6 @@
                     </div>
                 </div>
             </div>
-            <a href="<?= base_url(); ?>/barang/create2" class="btn btn-primary btn-lg">Simpan Data</a>
 
             <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
             <table id='example'>

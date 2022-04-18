@@ -13,17 +13,13 @@
                     <p class="card-text"> Software: <?= $barang->IsSoftware ?></p>
                     <p class="card-text"> Hardware: <?= $barang->IsHardware ?></p>
                     <p class="card-text"> No.User Pelapor: <?= $barang->Usr_Pelapor ?></p>
-                    <p class="card-text"> Hardware: <?= $barang->Keterangan_Pelapor ?></p>
+                    <p class="card-text"> No.User Teknisi: <?= $barang->Usr_Teknisi ?></p>
+                    <p class="card-text"> Keterangan Pelapor: <?= $barang->Keterangan_Pelapor ?></p>
+                    <p class="card-text"> Tanggal Penanganan: <?= $barang->Tgl_Penanganan ?></p>
+                    <p class="card-text"> Keterangan Teknisi: <?= $barang->Keterangan_Teknisi ?></p>
+                    <p class="card-text"> Status: <?= $barang->IsFinish ?></p>
+                    <a href="<?= base_url(); ?>/barang/create2/<?= $barang->ID; ?>" class="btn btn-warning">Tangani</a>
 
-                    <!-- <a href='/ci4/public/Mujahir/edit/<1?= $menu['SLUG']; ?>' class="btn btn-warning">Edit</a> -->
-
-                    <form action="<?= base_url(); ?>/barang/delete/<?= $barang->ID; ?> " method="post" class="d-inline">
-                        <?= csrf_field(); ?>
-                        <input type="hidden" name="_method" value="DELETE">
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Yakin?');">
-                            Delete
-                        </button>
-                    </form>
                     <br><br>
                     <a class="nav-link" href="<?= base_url(); ?>/barang/index">Kembali</a>
                 </div>

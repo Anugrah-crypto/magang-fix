@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class M_Barang extends Model
 {
     protected $table = "mlaporankerusakan";
-    //protected $allowedFields = ['BKT', 'Tgl_input', 'IsJaringan', 'IsSofware', 'IsHardware', 'Usr_Pelapor', 'Keterangan_Pelapor'];
+    protected $allowedFields = ['Usr_Teknisi', 'Tgl_Penanganan', 'Keterangan_Teknisi', 'IsFinish'];
     public function __construct()
     {
         $this->db = db_connect();
@@ -24,14 +24,6 @@ class M_Barang extends Model
 
         return $this->db->table('mlaporankerusakan')->getWhere(['ID' => $ID])->getFirstRow();
     }
-    // public function deleted($ID)
-    // {
-    //     if ($ID == false) {
-    //         return $this->db->table('mlaporankerusakan')->get()->getResultArray();
-    //     }
-
-    //     return $this->db->table('mlaporankerusakan')->delete($ID);
-    // }
     public function tambah($data)
     {
 
